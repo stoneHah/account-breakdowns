@@ -1,0 +1,44 @@
+{
+  "provider": "TikHub",
+  "purpose": "读取抖音公开作者资料与作品列表、解析入口分享链接",
+  "collected_at_asia_shanghai": "2026-11-15 08:37–08:38",
+  "timezone": "Asia/Shanghai",
+  "requests": 4,
+  "all_succeeded": true,
+  "actual_amount_usd": null,
+  "actual_amount_note": "实际费用未核实。工具说明约为每次请求很低的单价，不能当作账单。",
+  "calls": [
+    {
+      "time_asia_shanghai": "2026-11-15 08:37:10",
+      "action": "按分享链接取单条公开作品元数据",
+      "status": 200
+    },
+    {
+      "time_asia_shanghai": "2026-11-15 08:38:00",
+      "action": "取作者公开资料",
+      "status": 200
+    },
+    {
+      "time_asia_shanghai": "2026-11-15 08:38:04",
+      "action": "取作者公开作品列表第 1 页",
+      "status": 200,
+      "returned": 20,
+      "has_more": true
+    },
+    {
+      "time_asia_shanghai": "2026-11-15 08:38:06",
+      "action": "取作者公开作品列表第 2 页",
+      "status": 200,
+      "returned": 6,
+      "has_more": false
+    }
+  ],
+  "not_requested": [
+    "评论列表",
+    "播放统计接口",
+    "第 3 页及以后",
+    "为其余样本再次请求单条详情"
+  ],
+  "downloads_note": "三条样本视频曾从公开播放地址本地下载供观看与抽帧，原视频与播放地址不纳入本档案。",
+  "pagination_note": "第 2 页 has_more=0，只说明当时列表接口没有下一页，不是对资料页 27 条作品的全量承诺。"
+}
