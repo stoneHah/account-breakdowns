@@ -1,0 +1,349 @@
+{
+  "archive_id": "douyin/xiaoqu-danganguan/2026-11-15",
+  "timezone_label": "Asia/Shanghai（北京时间）",
+  "collected_at_asia_shanghai": "2026-11-15 08:37–08:38",
+  "archive_built_at_asia_shanghai": "2026-11-15",
+  "works_csv": "works.csv",
+  "works_json": "works.json",
+  "api_usage": "api-usage.json",
+  "median_method": "偶数条取排序后中间两条的算术平均。计数保留 .5；时长中位数保留到 0.0001 秒。",
+  "collection_method": {
+    "channel": "TikHub 抖音公开作品/作者接口（app v3）",
+    "requests": 4,
+    "all_succeeded": true,
+    "actual_fee_usd": null,
+    "actual_fee_note": "实际费用未核实",
+    "breakdown": [
+      "单条分享链接解析 1 次",
+      "作者资料 1 次",
+      "作者作品列表 2 页（每页最多 20 条）"
+    ],
+    "not_requested": [
+      "评论",
+      "播放统计接口",
+      "第 3 页作品",
+      "额外单条详情"
+    ],
+    "entry_share_url": "https://v.douyin.com/8CBARx8JAVg/",
+    "note": "2 页结束后接口 has_more=0，表示当时该列表接口没有更多分页，不是对账号后台全部 27 条的全量承诺。"
+  },
+  "account": {
+    "platform": "douyin",
+    "nickname": "小qu档案馆",
+    "unique_id": "98631807259",
+    "sec_uid": "MS4wLjABAAAAnQsJMoVVk75MuBNyuvjcSN1vibGgLlxtRozln7PWSd6ruWbZxq5hg5ffX_qW3a88",
+    "profile_url": "https://www.douyin.com/user/MS4wLjABAAAAnQsJMoVVk75MuBNyuvjcSN1vibGgLlxtRozln7PWSd6ruWbZxq5hg5ffX_qW3a88",
+    "follower_count": 29018,
+    "following_count": 11,
+    "aweme_count_profile": 27,
+    "posts_in_this_sample": 26,
+    "total_favorited": 702516,
+    "custom_verify": "",
+    "bio_public_summary": "介绍每一个人物的性格特点于故事；并说明视频为原创。简介里的商务联系方式没有写入本快照。",
+    "commerce_shop_entry_observed": false
+  },
+  "sample": {
+    "n": 26,
+    "profile_aweme_count": 27,
+    "count_discrepancy": "资料页作品数为 27，两页列表去重后 26 条且 has_more=0。少 1 条原因未核实。本档案统计只基于这 26 条公开列表。",
+    "earliest_published_at_asia_shanghai": "2026-10-17 14:08:52",
+    "latest_published_at_asia_shanghai": "2026-11-12 13:46:16",
+    "calendar_span_days_inclusive": 27,
+    "days_with_posts": 25,
+    "missing_days_in_span": [
+      "2026-10-18",
+      "2026-11-08"
+    ],
+    "all_aspect_16_9": true,
+    "resolutions": {
+      "1280x720": 8,
+      "1024x576": 18
+    },
+    "exact_10_00_00_publish_count": 9
+  },
+  "stats_in_sample": {
+    "likes": {
+      "min": 340,
+      "median": 7892.5,
+      "max": 243051,
+      "sum": 699651,
+      "mean_rounded": 26910
+    },
+    "comments": {
+      "min": 6,
+      "median": 54.5,
+      "max": 2658
+    },
+    "collects": {
+      "min": 199,
+      "median": 3809.5,
+      "max": 23359
+    },
+    "shares": {
+      "min": 25,
+      "median": 606.5,
+      "max": 41700
+    },
+    "duration_s": {
+      "min": 13.034,
+      "median": 23.5005,
+      "max": 152.602,
+      "note": "全样本时长来自作品表。三条已观看样本用 ffprobe，其余用列表接口时长。"
+    },
+    "like_distribution": [
+      {
+        "range": "0-9",
+        "count": 0
+      },
+      {
+        "range": "10-99",
+        "count": 0
+      },
+      {
+        "range": "100-999",
+        "count": 3
+      },
+      {
+        "range": "1000-9999",
+        "count": 11
+      },
+      {
+        "range": "10000-99999",
+        "count": 10
+      },
+      {
+        "range": "100000+",
+        "count": 2
+      }
+    ],
+    "profile_total_favorited": 702516,
+    "sample_digg_sum_note": "26 条赞数相加不等于资料页获赞总数。总数是账号累计口径，样本是列表当时的 26 条。差额原因未核实。",
+    "play_count": "未使用播放量。不把赞当作播放或收益。"
+  },
+  "category_medians_descriptive_only": {
+    "definition": "按作品表 topic_tags 归类，类别可以重叠。各条发布时间不同，到同一次采集为止累积互动的时间也不同，中位数只作描述，不能解释成栏目或片长导致了互动差异。",
+    "人物志": {
+      "n": 12,
+      "like_median": 11672.5,
+      "like_min": 1666,
+      "like_max": 243051,
+      "duration_s_median": 23.984,
+      "duration_s_min": 16.033,
+      "duration_s_max": 56.234,
+      "aweme_ids": [
+        "7707145429029158393",
+        "7706658824296323194",
+        "7705909563958749561",
+        "7705363938725108603",
+        "7704817212300894074",
+        "7704011580296378873",
+        "7703678227667454537",
+        "7703191958341411961",
+        "7702942371402689787",
+        "7702754937343639163",
+        "7702373006601435258",
+        "7702057177692225273"
+      ]
+    },
+    "七宗罪": {
+      "n": 6,
+      "like_median": 15585.5,
+      "like_min": 3045,
+      "like_max": 44165,
+      "duration_s_median": 14.7835,
+      "duration_s_min": 13.034,
+      "duration_s_max": 20.1,
+      "aweme_ids": [
+        "7701205645030437286",
+        "7700491233940235685",
+        "7700066488754120057",
+        "7699692483819868657",
+        "7699311996780624635",
+        "7699048611854325669"
+      ]
+    },
+    "反事实": {
+      "n": 4,
+      "like_median": 600.5,
+      "like_min": 340,
+      "like_max": 18555,
+      "duration_s_median": 124.158,
+      "duration_s_min": 13.034,
+      "duration_s_max": 152.602,
+      "aweme_ids": [
+        "7699048611854325669",
+        "7698433082068813489",
+        "7698047617410042553",
+        "7697514827128985787"
+      ]
+    },
+    "七美德": {
+      "n": 1,
+      "like_median": 1318,
+      "like_min": 1318,
+      "like_max": 1318,
+      "duration_s_median": 33.6,
+      "duration_s_min": 33.6,
+      "duration_s_max": 33.6,
+      "aweme_ids": [
+        "7701604182306922873"
+      ]
+    },
+    "人物自述": {
+      "n": 1,
+      "like_median": 4531,
+      "like_min": 4531,
+      "like_max": 4531,
+      "duration_s_median": 69.637,
+      "duration_s_min": 69.637,
+      "duration_s_max": 69.637,
+      "aweme_ids": [
+        "7700601107785246858"
+      ]
+    },
+    "overlap": {
+      "七宗罪_and_反事实": [
+        "7699048611854325669"
+      ]
+    },
+    "反事实_excluding_overlap": {
+      "n": 3,
+      "like_median": 518,
+      "like_min": 340,
+      "like_max": 683,
+      "duration_s_median": 136.836,
+      "duration_s_min": 111.48,
+      "duration_s_max": 152.602,
+      "aweme_ids": [
+        "7698433082068813489",
+        "7698047617410042553",
+        "7697514827128985787"
+      ]
+    },
+    "untagged_aweme_ids": [
+      "7706308863466020571",
+      "7704451787830988785",
+      "7700835631766039473"
+    ]
+  },
+  "top5_by_likes_in_sample": [
+    {
+      "rank": 1,
+      "aweme_id": "7705909563958749561",
+      "official_url": "https://www.douyin.com/video/7705909563958749561",
+      "title": "皇帝封无可封，只好专门给他造一个官 人物志：唐太宗李世民",
+      "published_at_asia_shanghai": "2026-11-09 10:00:00",
+      "duration_s": 46.833,
+      "duration_source": "ffprobe",
+      "digg_count": 243051,
+      "comment_count": 1479,
+      "collect_count": 23359,
+      "share_count": 41700
+    },
+    {
+      "rank": 2,
+      "aweme_id": "7705363938725108603",
+      "official_url": "https://www.douyin.com/video/7705363938725108603",
+      "title": "四十万赵军被围了四十六天，最后放下了兵器 人物志·第10位：白起",
+      "published_at_asia_shanghai": "2026-11-07 17:47:26",
+      "duration_s": 28.134,
+      "duration_source": "list_api",
+      "digg_count": 110073,
+      "comment_count": 2658,
+      "collect_count": 12067,
+      "share_count": 8034
+    },
+    {
+      "rank": 3,
+      "aweme_id": "7703191958341411961",
+      "official_url": "https://www.douyin.com/video/7703191958341411961",
+      "title": "孙权十万大军围城，他只带八百人冲了进去 人物志·第五位：张辽",
+      "published_at_asia_shanghai": "2026-11-02 10:00:00",
+      "duration_s": 23.067,
+      "duration_source": "list_api",
+      "digg_count": 99261,
+      "comment_count": 591,
+      "collect_count": 20387,
+      "share_count": 11416
+    },
+    {
+      "rank": 4,
+      "aweme_id": "7700491233940235685",
+      "official_url": "https://www.douyin.com/video/7700491233940235685",
+      "title": "一身战功造就一身傲气《关羽》",
+      "published_at_asia_shanghai": "2026-10-25 14:38:51",
+      "duration_s": 15.033,
+      "duration_source": "ffprobe",
+      "digg_count": 44165,
+      "comment_count": 574,
+      "collect_count": 14905,
+      "share_count": 3100
+    },
+    {
+      "rank": 5,
+      "aweme_id": "7706658824296323194",
+      "official_url": "https://www.douyin.com/video/7706658824296323194",
+      "title": "王不够大，帝不够高，他自己造了个词：皇帝 人物志：秦始皇嬴政",
+      "published_at_asia_shanghai": "2026-11-11 10:00:00",
+      "duration_s": 45.867,
+      "duration_source": "list_api",
+      "digg_count": 28755,
+      "comment_count": 176,
+      "collect_count": 14603,
+      "share_count": 4199
+    }
+  ],
+  "cross_checked_samples": [
+    {
+      "role": "入口样本",
+      "aweme_id": "7705909563958749561",
+      "official_url": "https://www.douyin.com/video/7705909563958749561",
+      "title": "皇帝封无可封，只好专门给他造一个官 人物志：唐太宗李世民",
+      "published_at_asia_shanghai": "2026-11-09 10:00:00",
+      "duration_s_ffprobe": 46.833,
+      "keyframe_sheet": "keyframes/01-contact.jpg",
+      "engagement_at_collection": {
+        "digg_count": 243051,
+        "comment_count": 1479,
+        "collect_count": 23359,
+        "share_count": 41700
+      }
+    },
+    {
+      "role": "相对高互动样本",
+      "aweme_id": "7700491233940235685",
+      "official_url": "https://www.douyin.com/video/7700491233940235685",
+      "title": "一身战功造就一身傲气《关羽》",
+      "published_at_asia_shanghai": "2026-10-25 14:38:51",
+      "duration_s_ffprobe": 15.033,
+      "keyframe_sheet": "keyframes/02-contact.jpg",
+      "engagement_at_collection": {
+        "digg_count": 44165,
+        "comment_count": 574,
+        "collect_count": 14905,
+        "share_count": 3100
+      }
+    },
+    {
+      "role": "普通样本",
+      "aweme_id": "7706308863466020571",
+      "official_url": "https://www.douyin.com/video/7706308863466020571",
+      "title": "十倍兵力输给曹操，袁绍到底输在哪",
+      "published_at_asia_shanghai": "2026-11-10 10:00:00",
+      "duration_s_ffprobe": 96.767,
+      "keyframe_sheet": "keyframes/03-contact.jpg",
+      "engagement_at_collection": {
+        "digg_count": 8520,
+        "comment_count": 65,
+        "collect_count": 5116,
+        "share_count": 860
+      },
+      "note": "勿沿用误写的 37 秒。真实时长 96.767 秒。"
+    }
+  ],
+  "user_judgment": {
+    "time_asia_shanghai": "2026-11-15 09:31",
+    "summary": "用户明确判断该账号作品是代码生成。",
+    "evidence_level": "用户确认/判断，未取得作者工程源码独立核实"
+  }
+}

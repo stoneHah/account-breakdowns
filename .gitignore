@@ -1,0 +1,39 @@
+# 密钥与本地环境。
+# 脱敏快照 JSON 与 CSV 需要入库，下面没有用通配符排除这两类文件。
+.env
+.env.*
+.envrc
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# 原视频与未脱敏原始材料
+raw/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4v
+*.avi
+*.flv
+*.ts
+*.m4a
+
+# 临时压缩包与下载残留
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.part
+*.crdownload
+
+# 本机与工具残留
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
